@@ -1,0 +1,28 @@
+Added inflammagen variable
+Added inflammagen diffusion
+Implemented inflammagen effect as equal to additional renewal per turn
+Added inflammagen decay equal to (1-inflammagen_decay) (AFTER ENERGY RENEWAL IN EACH STEP)
+Initialized inflammagen_decay to 0.1, just becuz
+Updated doc
+
+REMEMBER MATHWISE W THIS DECAY ALGORITHM equilibrium amount w/o diffusion is like (amount produced)/(decay rate).
+
+
+ADDITIONAL CHANGES TO PATCH_INFLAMMATION CODE ONLY
+
+Added patch_inflammagen
+Implemented adding patch_inflammagen to the left side of the world
+Added side-wise turtle population monitoring
+Added sided analysis graph
+Made inital cell distribution dynamic carrying capacity
+Added 2 graphs
+Updated doc
+
+ADDITIONAL CHANGES TO CELL_INFLAMMATION CODE ONLY
+Added inflammogenicity turtle quality, equal to inflammagen added per time step
+Implemented inflammogenicity function
+Initialized inflammogenicity to 0
+Set up inflammogenicity evolution and sanity check
+
+EXP1PATCHINFLAMMATIONDATA
+Modified from PATCH_INFLAMMATION, has uniform inflammation and data export to csv, as well as porportion-based stop.

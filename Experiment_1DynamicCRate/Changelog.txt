@@ -1,0 +1,26 @@
+Changes from old experiment 1 patch inflammation:
+
+Algorithmic
+Turned on c_rate mutations
+removed official categorization of cells as normal or neoplastic 
+designated neoplastic as cells with consumption rate >2
+Removed hard barrier of m_rate at 0.
+
+Non-algorithmic
+Added new graphs, strategy and consumption rate
+Added mean mobility and consumption rate trackers
+Deleted useless std dev and neoplastic controls
+Changed data export to include c_rate data
+
+Changes to Exp1DataFinalNoInflammagen from above
+
+Deleted inflammagen - decay and patch inflammation vars
+Deleted inflammagen patch var
+
+Removed in code:
+Inflammagen decay
+Inflammagen addition
+Inflammagen function
+inflammagen diffusion
+
+Altered resource experiment to change renewal rates directly instead

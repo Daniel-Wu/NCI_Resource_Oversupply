@@ -1,0 +1,7 @@
+Added maintenance cost to survival
+Changed death from patch resource extinction to starvation
+Removed old dumb death threshold
+Floored patch to never go below 0 resources
+Changed base parameters to allow carrying capacity of 4 per patch (HUUUUUGE GUESSTIMATE, find some actual biology later)
+Made base renewal rate a parameter
+Updated code doc
